@@ -1,5 +1,5 @@
 # Player Performance
-Calculate a player's performance rating and rating change based from the given pgn file.
+Calculate a player's Elo performance rating and Elo rating change based from the given pgn file.
 
 It is a command line program that takes the player name and pgn file as input. The games in the pgn file must have a WhiteElo and BlackElo tags. There are 2 sample pgn files under the pgn folder in this repository.
 
