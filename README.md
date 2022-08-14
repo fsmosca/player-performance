@@ -1,6 +1,8 @@
 # Player Performance
 Calculate a player's performance rating and rating change based from the given pgn file.
 
+It is a command line program that takes the player name and pgn file as input. The games in the pgn file must have a WhiteElo and BlackElo tags. There are 2 sample pgn files under the pgn folder in this repository.
+
 ## Installation
 
 * Install python version >= 3.7 from [python site.](https://www.python.org/downloads/)
@@ -161,6 +163,14 @@ You can download all files in this repository that includes the pgn files under 
 ```
 https://github.com/fsmosca/player-performance.git
 ```
+
+## Change log
+
+#### version 0.1.0 [2022-08-14]
+
+* Implement the Elo performance rating calculation
+* Implement the Elo rating change calculation
+
 
 ## Credits
 
