@@ -10,7 +10,7 @@ import pandas as pd
 
 
 class Rating:
-    def __init__(self, name, pgn_file):
+    def __init__(self, name, pgn_file, K=10):
         self.name = name
         self.rating = None
         self.pgn_file = pgn_file
@@ -22,8 +22,9 @@ class Rating:
         self.opp_average_rating = 0.0
         self.rating_change = 0.0
         self.games = 0
+        self.K = K
 
-    def calculate(self, K=10):
+    def calculate(self):
         with open(self.pgn_file) as f:
             while True:
                 game = chess.pgn.read_game(f)
@@ -68,7 +69,7 @@ class Rating:
             myscore = opp['score']
 
             exp_score = ratingdiff_to_score(self.rating - opprating)
-            rchange = round(K * (myscore - exp_score), 2)
+            rchange = round(self.K * (myscore - exp_score), 2)
 
             # perf = opprating + rdscore
             data.append([self.name, self.rating, oppname, opprating, myscore, rchange])
