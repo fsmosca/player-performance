@@ -1,8 +1,10 @@
 # Player Performance
-Calculate a player's performance rating and rating change based from the given a pgn file.
+Calculate a player's performance rating and rating change based from the given pgn file.
 
 ## Installation
 
+* Install python version >= 3.7 from [python site.](https://www.python.org/downloads/)
+* Install player-performance with the following command from command line.  
 `pip install -U player-performance`
 
 ## Run from command line
