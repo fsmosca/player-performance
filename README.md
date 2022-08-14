@@ -12,6 +12,29 @@ It is a command line program that takes the player name and pgn file as input. T
 
 This package is dependent on [python chess](https://python-chess.readthedocs.io/en/latest/) and [pandas](https://pandas.pydata.org/) libraries. These libararies are automatically installed when `player-performance` is installed.
 
+## Help
+
+Command line:
+
+`performance --help`
+
+```
+usage: performance [-h] --player-name PLAYER_NAME [--input-pgnfile INPUT_PGNFILE] [--dev-coefficient DEV_COEFFICIENT] [-v]
+
+Get player performance.
+
+options:
+  -h, --help            show this help message and exit
+  --player-name PLAYER_NAME
+                        input player name, example: --player-name "So , Wesley"
+  --input-pgnfile INPUT_PGNFILE
+                        input pgn file, example: --input-pgnfile "olym22.pgn"
+  --dev-coefficient DEV_COEFFICIENT
+                        the K or development coefficent to use, default=10, example: --dev-coefficient 10
+  -v, --version         show program's version number and exit
+```
+
+
 ## Run from command line
 
 ### Sample 1
@@ -166,6 +189,11 @@ git clone https://github.com/fsmosca/player-performance.git
 ```
 
 ## Change log
+
+#### version 0.2.0 [2022-08-14]
+
+* Add `--dev-coefficient` option as K
+
 
 #### version 0.1.0 [2022-08-14]
 
