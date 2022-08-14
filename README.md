@@ -161,7 +161,7 @@ My Performance Rating: 2867
 You can download all files in this repository that includes the pgn files under the pgn folder.
 
 ```
-https://github.com/fsmosca/player-performance.git
+git clone https://github.com/fsmosca/player-performance.git
 ```
 
 ## Change log
