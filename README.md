@@ -69,6 +69,90 @@ My Rating difference based on My Score: 280
 My Performance Rating: 2809
 ```
 
+### Sample 3
+
+```
+performance --player-name "So, Wesley" --input-pgnfile ./pgn/olym22.pgn
+```
+
+##### Output
+
+```
+       MyName  MyRating                    OppName  OppRating  MyScore  MyRChange
+0  So, Wesley      2773             Miguel, Sergio       2274      1.0       0.54
+1  So, Wesley      2773    Delgado Ramirez, Neuris       2614      0.5      -2.14
+2  So, Wesley      2773         Sindarov, Javokhir       2629      1.0       3.04
+3  So, Wesley      2773               Smirin, Ilia       2601      0.5      -2.29
+4  So, Wesley      2773               Idani, Pouya       2641      0.5      -1.81
+5  So, Wesley      2773           Melkumyan, Hrant       2634      1.0       3.10
+6  So, Wesley      2773          Praggnanandhaa, R       2648      0.5      -1.73
+7  So, Wesley      2773  Mastrovasilis, Athanasios       2527      1.0       1.95
+8  So, Wesley      2773                  Can, Emre       2606      0.5      -2.23
+9  So, Wesley      2773    Vidit, Santosh Gujrathi       2714      0.5      -0.84
+
+My name: So, Wesley
+My Score: 0.7 in 7.0 / 10 games
+My Opponent Average Rating: 2589
+My Rating Change: -2.41
+My Rating difference based on My Score: 147
+My Performance Rating: 2736
+```
+
+### Sample 4
+
+```
+performance --player-name "Barcenilla, Rogelio" --input-pgnfile ./pgn/olym22.pgn
+```
+
+##### output
+
+```
+                MyName  MyRating                     OppName  OppRating  MyScore  MyRChange
+0  Barcenilla, Rogelio      2463             Guseinov, Gadir       2668      0.0      -2.35
+1  Barcenilla, Rogelio      2463       Isaakidis, Alexandros       2165      1.0       1.52
+2  Barcenilla, Rogelio      2463          Dornbusch, Tatiana       2247      0.5      -2.76
+3  Barcenilla, Rogelio      2463               Nabaty, Tamir       2631      1.0       7.25
+4  Barcenilla, Rogelio      2463              Piorun, Kacper       2636      0.5       2.30
+5  Barcenilla, Rogelio      2463          Theodorou, Nikolas       2575      0.0      -3.44
+6  Barcenilla, Rogelio      2463  Lorenzana, Wilson Estuardo       2182      1.0       1.66
+
+My name: Barcenilla, Rogelio
+My Score: 0.57 in 4.0 / 7 games
+My Opponent Average Rating: 2443
+My Rating Change: 4.18
+My Rating difference based on My Score: 50
+My Performance Rating: 2493
+```
+
+### Sample 5
+
+```
+performance --player-name "Gukesh, D" --input-pgnfile ./pgn/olym22.pgn
+```
+
+##### Output
+
+```
+       MyName  MyRating                          OppName  OppRating  MyScore  MyRChange
+0   Gukesh, D      2684                 Al Hosani, Omran       2215      1.0       0.63
+1   Gukesh, D      2684                      Kiik, Kalle       2365      1.0       1.37
+2   Gukesh, D      2684                 Georgiadis, Nico       2578      1.0       3.52
+3   Gukesh, D      2684                Vocaturo, Daniele       2616      1.0       4.03
+4   Gukesh, D      2684                   Shirov, Alexei       2704      1.0       5.29
+5   Gukesh, D      2684              Sargissian, Gabriel       2698      1.0       5.20
+6   Gukesh, D      2684  Albornoz Cabrera, Carlos Daniel       2566      1.0       3.36
+7   Gukesh, D      2684                 Caruana, Fabiano       2783      1.0       6.39
+8   Gukesh, D      2684           Mamedyarov, Shakhriyar       2759      0.5       1.06
+9   Gukesh, D      2684           Abdusattorov, Nodirbek       2688      0.0      -4.94
+10  Gukesh, D      2684                  Keymer, Vincent       2686      0.5       0.03
+
+My name: Gukesh, D
+My Score: 0.82 in 9.0 / 11 games
+My Opponent Average Rating: 2605
+My Rating Change: 25.94
+My Rating difference based on My Score: 261
+My Performance Rating: 2867
+```
 
 ## Download the whole repository
 
