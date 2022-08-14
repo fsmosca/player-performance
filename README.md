@@ -8,6 +8,8 @@ Calculate a player's performance rating and rating change based from the given p
 * Install `player-performance` package from [pypi](https://pypi.org/project/player-performance/) with the following command from command line.  
 `pip install -U player-performance`
 
+This package is dependent on [python chess](https://python-chess.readthedocs.io/en/latest/) and [pandas](https://pandas.pydata.org/) libraries. These libararies are automatically installed when `player-performance` is installed.
+
 ## Run from command line
 
 ### Sample 1
@@ -73,3 +75,9 @@ My Performance Rating: 2809
 ```
 https://github.com/fsmosca/player-performance.git
 ```
+
+## Credits
+
+* [Python chess](https://python-chess.readthedocs.io/en/latest/)
+* [Pandas](https://pandas.pydata.org/)
+* [The Week in Chess](https://theweekinchess.com/)
