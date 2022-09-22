@@ -46,6 +46,9 @@ performance --player-name "Abdusattorov, Nodirbek" --input-pgnfile "olym22.pgn"
 ##### Output
 
 ```
+Event : 44th Olympiad 2022
+Date  : 2022.08.09
+
                     MyName  MyRating                  OppName  OppRating  MyScore  MyRChange
 0   Abdusattorov, Nodirbek      2688  Chaulagain, Purushottam       1975      1.0       0.16
 1   Abdusattorov, Nodirbek      2688         Ziska, Helgi Dam       2549      1.0       3.10
@@ -59,10 +62,10 @@ performance --player-name "Abdusattorov, Nodirbek" --input-pgnfile "olym22.pgn"
 9   Abdusattorov, Nodirbek      2688                Gukesh, D       2684      1.0       4.94
 10  Abdusattorov, Nodirbek      2688              Giri, Anish       2760      0.5       1.02
 
-My name: Abdusattorov, Nodirbek
-My Score: 0.77 in 8.5 / 11 games
-My Opponent Average Rating: 2592
-My Rating Change: 20.56
+My name                    : Abdusattorov, Nodirbek
+My Score                   : 0.77 in 8.5 / 11 games
+My Opponent Average Rating : 2592
+My Rating Change           : 20.56
 My Performance Rating by logistic function : 2804
 My Performance Rating by FIDE table        : 2803
 ```
@@ -186,6 +189,9 @@ performance --player-name "Vachier-Lagrave, Maxime" --input-pgnfile ./pgn/stlrap
 ```
 
 ```
+Event : Saint Louis Rapid 2022
+Date  : 2022.08.28
+
                     MyName  MyRating                   OppName  OppRating  MyScore  MyRChange
 0  Vachier-Lagrave, Maxime      2757            Aronian, Levon       2775      0.5       0.26
 1  Vachier-Lagrave, Maxime      2757       Nepomniachtchi, Ian       2792      0.5       0.50
@@ -197,10 +203,10 @@ performance --player-name "Vachier-Lagrave, Maxime" --input-pgnfile ./pgn/stlrap
 7  Vachier-Lagrave, Maxime      2757  Dominguez Perez, Leinier       2754      0.5      -0.04
 8  Vachier-Lagrave, Maxime      2757         Firouzja, Alireza       2778      0.5       0.30
 
-My name: Vachier-Lagrave, Maxime
-My Score: 0.61 in 5.5 / 9 games
-My Opponent Average Rating: 2757
-My Rating Change: 9.98
+My name                    : Vachier-Lagrave, Maxime
+My Score                   : 0.61 in 5.5 / 9 games
+My Opponent Average Rating : 2757
+My Rating Change           : 9.98
 My Performance Rating by logistic function : 2835
 My Performance Rating by FIDE table        : 2837
 ```
