@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="player-performance",
-    version='0.2.1',
+    version='0.3.0',
     author='Ferdinand Mosca',
     author_email="ferdymosca@gmail.com",
     description="Gets the player performance and rating change from the tournament.",
