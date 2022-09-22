@@ -26,5 +26,5 @@ def main():
     print(f'My Score: {round(info.score, 2)} in {round(info.score*info.games, 1)} / {info.games} games')
     print(f'My Opponent Average Rating: {round(table["OppRating"].mean())}')
     print(f'My Rating Change: {round(info.rating_change, 2)}')
-    print(f'My Rating difference based on My Score: {round(info.rating_byscore)}')
-    print(f'My Performance Rating: {info.perf_rating}')
+    print(f'My Performance Rating by logistic function : {info.perf_rating}')
+    print(f'My Performance Rating by FIDE table        : {info.perf_rating_fide_table}')
