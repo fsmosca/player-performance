@@ -218,6 +218,7 @@ git clone https://github.com/fsmosca/player-performance.git
 
 #### version 0.3.0 [2022-09-22]
 
+* Add event and date info in the output.
 * Add performance rating using FIDE table in the console output.
 
 #### version 0.2.0 [2022-08-14]
