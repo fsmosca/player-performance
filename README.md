@@ -63,8 +63,8 @@ My name: Abdusattorov, Nodirbek
 My Score: 0.77 in 8.5 / 11 games
 My Opponent Average Rating: 2592
 My Rating Change: 20.56
-My Rating difference based on My Score: 213
-My Performance Rating: 2804
+My Performance Rating by logistic function : 2804
+My Performance Rating by FIDE table        : 2803
 ```
 
 ### Sample 2
@@ -90,8 +90,8 @@ My name: Carlsen, Magnus
 My Score: 0.83 in 7.5 / 9 games
 My Opponent Average Rating: 2530
 My Rating Change: -2.79
-My Rating difference based on My Score: 280
-My Performance Rating: 2809
+My Performance Rating by logistic function : 2809
+My Performance Rating by FIDE table        : 2803
 ```
 
 ### Sample 3
@@ -116,11 +116,11 @@ performance --player-name "So, Wesley" --input-pgnfile ./pgn/olym22.pgn
 9  So, Wesley      2773    Vidit, Santosh Gujrathi       2714      0.5      -0.84
 
 My name: So, Wesley
-My Score: 0.7 in 7.0 / 10 games
+My Score: 0.7 in 7.0 / 10 games 
 My Opponent Average Rating: 2589
 My Rating Change: -2.41
-My Rating difference based on My Score: 147
-My Performance Rating: 2736
+My Performance Rating by logistic function : 2736
+My Performance Rating by FIDE table        : 2738
 ```
 
 ### Sample 4
@@ -145,8 +145,8 @@ My name: Barcenilla, Rogelio
 My Score: 0.57 in 4.0 / 7 games
 My Opponent Average Rating: 2443
 My Rating Change: 4.18
-My Rating difference based on My Score: 50
-My Performance Rating: 2493
+My Performance Rating by logistic function : 2493
+My Performance Rating by FIDE table        : 2493
 ```
 
 ### Sample 5
@@ -175,8 +175,34 @@ My name: Gukesh, D
 My Score: 0.82 in 9.0 / 11 games
 My Opponent Average Rating: 2605
 My Rating Change: 25.94
-My Rating difference based on My Score: 261
-My Performance Rating: 2867
+My Performance Rating by logistic function : 2867
+My Performance Rating by FIDE table        : 2867
+```
+
+### Sample 6
+
+```
+performance --player-name "Vachier-Lagrave, Maxime" --input-pgnfile ./pgn/stlrap22.pgn
+```
+
+```
+                    MyName  MyRating                   OppName  OppRating  MyScore  MyRChange
+0  Vachier-Lagrave, Maxime      2757            Aronian, Levon       2775      0.5       0.26
+1  Vachier-Lagrave, Maxime      2757       Nepomniachtchi, Ian       2792      0.5       0.50
+2  Vachier-Lagrave, Maxime      2757    Mamedyarov, Shakhriyar       2758      1.0       5.01
+3  Vachier-Lagrave, Maxime      2757          Nakamura, Hikaru       2768      0.5       0.16
+4  Vachier-Lagrave, Maxime      2757            Shankland, Sam       2720      0.5      -0.53
+5  Vachier-Lagrave, Maxime      2757            Xiong, Jeffery       2690      0.5      -0.95
+6  Vachier-Lagrave, Maxime      2757          Caruana, Fabiano       2776      1.0       5.27
+7  Vachier-Lagrave, Maxime      2757  Dominguez Perez, Leinier       2754      0.5      -0.04
+8  Vachier-Lagrave, Maxime      2757         Firouzja, Alireza       2778      0.5       0.30
+
+My name: Vachier-Lagrave, Maxime
+My Score: 0.61 in 5.5 / 9 games
+My Opponent Average Rating: 2757
+My Rating Change: 9.98
+My Performance Rating by logistic function : 2835
+My Performance Rating by FIDE table        : 2837
 ```
 
 ## Download the whole repository
