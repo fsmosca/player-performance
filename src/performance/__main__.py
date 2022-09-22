@@ -19,12 +19,17 @@ def main():
     info = performance.rating.Rating(playername, pgnfile, K=K)
     info.calculate()
     table = info.table
+    
+    print(f'Event : {info.event}')
+    print(f'Date  : {info.date}')
+    print()
+
     print(f'{table.to_string()}')
 
     print()
-    print(f'My name: {playername}')
-    print(f'My Score: {round(info.score, 2)} in {round(info.score*info.games, 1)} / {info.games} games')
-    print(f'My Opponent Average Rating: {round(table["OppRating"].mean())}')
-    print(f'My Rating Change: {round(info.rating_change, 2)}')
+    print(f'My name                    : {playername}')
+    print(f'My Score                   : {round(info.score, 2)} in {round(info.score*info.games, 1)} / {info.games} games')
+    print(f'My Opponent Average Rating : {round(table["OppRating"].mean())}')
+    print(f'My Rating Change           : {round(info.rating_change, 2)}')
     print(f'My Performance Rating by logistic function : {info.perf_rating}')
     print(f'My Performance Rating by FIDE table        : {info.perf_rating_fide_table}')
