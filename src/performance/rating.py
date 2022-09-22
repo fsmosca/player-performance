@@ -24,6 +24,8 @@ class Rating:
         self.rating_change = 0.0
         self.games = 0
         self.K = K
+        self.event = '?'
+        self.date = '????.??.??'
 
     def calculate(self):
         with open(self.pgn_file) as f:
@@ -31,6 +33,8 @@ class Rating:
                 game = chess.pgn.read_game(f)
                 if game is None:
                     break
+                self.event = game.headers.get('Event', '?')
+                self.date = game.headers.get('Date', '????.??.??')
                 wp = game.headers['White']
                 bp = game.headers['Black']
 
