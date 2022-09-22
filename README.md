@@ -190,6 +190,10 @@ git clone https://github.com/fsmosca/player-performance.git
 
 ## Change log
 
+#### version 0.3.0 [2022-09-22]
+
+* Add performance rating using FIDE table in the console output.
+
 #### version 0.2.0 [2022-08-14]
 
 * Add `--dev-coefficient` option as K
